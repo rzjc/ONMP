@@ -7,23 +7,23 @@
 # 软件包列表
 pkglist="wget unzip grep sed tar ca-certificates coreutils-whoami php7 php7-cgi php7-cli php7-fastcgi php7-fpm php7-mod-mysqli php7-mod-pdo php7-mod-pdo-mysql nginx-extras mariadb-server mariadb-server-extra mariadb-client mariadb-client-extra"
 
-phpmod="php7-mod-calendar php7-mod-ctype php7-mod-curl php7-mod-dom php7-mod-exif php7-mod-fileinfo php7-mod-ftp php7-mod-gd php7-mod-gettext php7-mod-gmp php7-mod-hash php7-mod-iconv php7-mod-intl php7-mod-json php7-mod-ldap php7-mod-session php7-mod-mbstring php7-mod-opcache php7-mod-openssl php7-mod-pcntl php7-mod-phar php7-pecl-redis php7-mod-session php7-mod-shmop php7-mod-simplexml php7-mod-snmp php7-mod-soap php7-mod-sockets php7-mod-sqlite3 php7-mod-sysvmsg php7-mod-sysvsem php7-mod-sysvshm php7-mod-tokenizer php7-mod-xml php7-mod-xmlreader php7-mod-xmlwriter php7-mod-zip php7-pecl-dio php7-pecl-http php7-pecl-libevent php7-pecl-propro php7-pecl-raphf redis snmpd snmp-mibs snmp-utils zoneinfo-core zoneinfo-asia"
+phpmod="coreutils-stat php7-mod-filter php7-mod-calendar php7-mod-ctype php7-mod-curl php7-mod-dom php7-mod-exif php7-mod-fileinfo php7-mod-ftp php7-mod-gd php7-mod-gettext php7-mod-gmp php7-mod-hash php7-mod-iconv php7-mod-intl php7-mod-json php7-mod-ldap php7-mod-session php7-mod-mbstring php7-mod-opcache php7-mod-openssl php7-mod-pcntl php7-mod-phar php7-pecl-redis php7-mod-session php7-mod-shmop php7-mod-simplexml php7-mod-snmp php7-mod-soap php7-mod-sockets php7-mod-sqlite3 php7-mod-sysvmsg php7-mod-sysvsem php7-mod-sysvshm php7-mod-tokenizer php7-mod-xml php7-mod-xmlreader php7-mod-xmlwriter php7-mod-zip php7-pecl-dio php7-pecl-http php7-pecl-libevent php7-pecl-propro php7-pecl-raphf redis-server snmpd snmp-mibs snmp-utils zoneinfo-core zoneinfo-asia"
 
 # 后续可能增加的包(缺少源支持)
 # php7-mod-imagick imagemagick imagemagick-jpeg imagemagick-png imagemagick-tiff imagemagick-tools
 
 # Web程序
 # (1) phpMyAdmin（数据库管理工具）
-url_phpMyAdmin="https://files.phpmyadmin.net/phpMyAdmin/4.8.3/phpMyAdmin-4.8.3-all-languages.zip"
+url_phpMyAdmin="https://files.phpmyadmin.net/phpMyAdmin/5.0.4/phpMyAdmin-5.0.4-all-languages.zip"
 
 # (2) WordPress（使用最广泛的CMS）
-url_WordPress="https://cn.wordpress.org/wordpress-4.9.4-zh_CN.zip"
+url_WordPress="https://cn.wordpress.org/latest-zh_CN.zip"
 
 # (3) Owncloud（经典的私有云）
 url_Owncloud="https://download.owncloud.org/community/owncloud-10.0.10.zip"
 
 # (4) Nextcloud（Owncloud团队的新作，美观强大的个人云盘）
-url_Nextcloud="https://download.nextcloud.com/server/releases/nextcloud-13.0.6.zip"
+url_Nextcloud="https://download.nextcloud.com/server/releases/latest.zip"
 
 # (5) h5ai（优秀的文件目录）
 url_h5ai="https://release.larsjung.de/h5ai/h5ai-0.29.0.zip"
