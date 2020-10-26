@@ -141,6 +141,7 @@ init_onmp()
 
     # 初始化数据库
     init_sql > /dev/null 2>&1
+    ln -s /opt/var/run/mysqld.sock /opt/var/run/mysqld/mysqld.sock
 
     # 初始化PHP
     init_php > /dev/null 2>&1
